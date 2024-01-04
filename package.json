@@ -1,6 +1,6 @@
 {
   "name": "validatorjs-aker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JavaScript library to validate the values of the fields of forms or variables in general",
   "main": "validator.js",
   "browser": "validator.js",
@@ -17,7 +17,7 @@
     "javascript",
     "js"
   ],
-  "type":"module",
+  "type": "module",
   "author": "Aker",
   "license": "MIT"
 }
