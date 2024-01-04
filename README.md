@@ -5,7 +5,7 @@ JavaScript library to validate the values of the fields of forms or variables in
 ## Installation
 
 ```sh
-npm i @aker/validatorjs
+npm i validatorjs-aker
 ```
 
 ## Available languages
@@ -23,8 +23,8 @@ npm i @aker/validatorjs
 ## Usage example
 
 ```js
-import Validator from '@aker/validatorjs'
-import it from '@aker/validatorjs/lang/it'
+import Validator from 'validatorjs-aker'
+import it from 'validatorjs-aker/lang/it'
 
 const validator = new Validator()
 // const validator = new Validator('es')
