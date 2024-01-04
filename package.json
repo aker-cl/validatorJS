@@ -2,8 +2,8 @@
   "name": "validatorjs-aker",
   "version": "1.0.0",
   "description": "JavaScript library to validate the values of the fields of forms or variables in general",
-  "main": "/validator.js",
-  "browser": "/validator.js",
+  "main": "validator.js",
+  "browser": "validator.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
