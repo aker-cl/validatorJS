@@ -1,0 +1,23 @@
+{
+  "name": "@aker/validatorjs",
+  "version": "1.0.0",
+  "description": "JavaScript library to validate the values of the fields of forms or variables in general",
+  "main": "validator.js",
+  "browser": "validator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aker-cl/validatorJS.git"
+  },
+  "keywords": [
+    "validator",
+    "validatorjs",
+    "javascript",
+    "js"
+  ],
+  "type":"module",
+  "author": "Aker",
+  "license": "MIT"
+}
