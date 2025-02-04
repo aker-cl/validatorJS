@@ -1,6 +1,6 @@
 {
-  "name": "@teseract/validatorjs",
-  "version": "1.0.0",
+  "name": "@aker-cl/validatorjs-aker",
+  "version": "1.1.0",
   "description": "JavaScript library to validate the values of the fields of forms or variables in general",
   "main": "validator.js",
   "browser": "validator.js",
@@ -21,6 +21,6 @@
   "author": "Aker",
   "license": "MIT",
   "dependencies": {
-    "@teseract/validatorjs": "file:"
+    "@aker-cl/validatorjs-aker": "file:"
   }
 }
