@@ -5,7 +5,7 @@ JavaScript library to validate the values of the fields of forms or variables in
 ## Installation
 
 ```sh
-npm i @teseract/validatorjs
+npm i teseract-validatorjs
 ```
 
 ## Available languages
@@ -23,8 +23,8 @@ npm i @teseract/validatorjs
 ## Usage example
 
 ```js
-import Validator from '@teseract/validatorjs'
-import it from '@teseract/validatorjs/lang/it'
+import Validator from 'teseract-validatorjs'
+import it from 'teseract-validatorjs/lang/it'
 import custom from '../languages/validator'
 
 const validator = new Validator()
@@ -78,12 +78,6 @@ if(validator.hasErrors()){
 | `getErrorsMessages()` | Returns errors messages in an array |
 | `getErrorsDetail()` | Returns errors in this format [... {field_name: string, error: string, message: string}] |
 | `getErrorsList(ulAttributes: Object/null, liAtributes: Object/null` | Returns errors in an HTML listing. You can indicate the attributes of the elements UL and LI through an object: {class, id, etc} |
-
-## Release Notes
-
-### v1.0.0 - Feb 04, 2025
-
-- Validator project uploaded
 
 ## License
 
