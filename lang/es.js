@@ -23,8 +23,14 @@ const validatorMessages = (field_name) => {
         maxLength: (max) => {return `El campo ${field_name} debe tener un máximo de ${max} caracteres.`},
         /** @param {number} min @returns {string} Error message */
         minLength: (min) => {return `El campo ${field_name} debe tener un mínimo de ${min} caracteres.`},
+        /** @param {number} min @returns {string} Error message */
+        maxYear: (min) => {return `El año del campo ${field_name} no puede ser mayor a ${min}.`},
+         /** @param {number} min @returns {string} Error message */
+        minYear: (min) => {return `El año del campo ${field_name} no puede ser menor a ${min}.`},
         /** @param {string} second_field_name @returns {string} Error message */
-        notEqual: (second_field_name) => {return `El valor del campo ${field_name} no puede ser igual al valor del campo ${second_field_name}`}
+        notEqual: (second_field_name) => {return `El valor del campo ${field_name} no puede ser igual al valor del campo ${second_field_name}`},
+        /** @param {string} second_field_name @returns {string} Error message */
+        equal: (second_field_name) => {return `El valor del campo ${field_name} debe ser igual al valor del campo ${second_field_name}`}
     }
 }
 

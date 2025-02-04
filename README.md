@@ -5,7 +5,7 @@ JavaScript library to validate the values of the fields of forms or variables in
 ## Installation
 
 ```sh
-npm i validatorjs-aker
+npm i @teseract/validatorjs
 ```
 
 ## Available languages
@@ -23,12 +23,14 @@ npm i validatorjs-aker
 ## Usage example
 
 ```js
-import Validator from 'validatorjs-aker'
-import it from 'validatorjs-aker/lang/it'
+import Validator from '@teseract/validatorjs'
+import it from '@teseract/validatorjs/lang/it'
+import custom from '../languages/validator'
 
 const validator = new Validator()
 // const validator = new Validator('es')
 // const validator = new Validator(it)
+// const validator = new Validator(custom)
 
 const number = 133
 const text = 'John Doe'
@@ -72,13 +74,14 @@ if(validator.hasErrors()){
 | `minLength(min: number, personalized_message: string/null)` | Check if the length of the field value is greater than or equal to the min. |
 | `notEqual(value: string/number/null, second_field_name: string, personalized_message: string/null)` | Check if the field value is not equal to the first value entered. |
 | `hasErrors()` | Check if any field has an error. Return true o false |
+| `getFirstError()` | Return the first error message |
 | `getErrorsMessages()` | Returns errors messages in an array |
 | `getErrorsDetail()` | Returns errors in this format [... {field_name: string, error: string, message: string}] |
 | `getErrorsList(ulAttributes: Object/null, liAtributes: Object/null` | Returns errors in an HTML listing. You can indicate the attributes of the elements UL and LI through an object: {class, id, etc} |
 
 ## Release Notes
 
-### v1.0.0 - Jan 04, 2024
+### v1.0.0 - Feb 04, 2025
 
 - Validator project uploaded
 
