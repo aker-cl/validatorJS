@@ -8,8 +8,7 @@ var validator
 
 const validate = () => {
     const validator = new Validator('es');
-    validator.add(nombre.value, 'Nombre', nombre.id).required().minLength(nombre.minLength).maxLength(nombre.maxLength)
-    .addListener();
+    validator.add(nombre.value, 'Nombre', nombre.id).required().minLength(nombre.minLength).maxLength(nombre.maxLength).addListener();
     validator.add(apellido.value, 'Apellido', apellido.id).required().maxLength(apellido.maxLength)
     // .addListener();
 

@@ -366,9 +366,6 @@ export default class Validator {
         return this
     }
     /**
-     * 
-     * @param {string} name Label name of input
-     * @param {string} id id of input
      * @param {Function} formatValue function to change the format of input value
      * 
      * @returns {false}
